@@ -1,0 +1,15 @@
+{
+  "scripts": {
+    "dev": "wrangler dev src/index.ts",
+    "host": "wrangler deploy --minify src/index.ts"
+  },
+  "dependencies": {
+    "@libsql/client": "^0.6.0",
+    "@types/bun": "^1.1.3",
+    "hono": "^4.3.6"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20240403.0",
+    "wrangler": "^3.47.0"
+  }
+}
